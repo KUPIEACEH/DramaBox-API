@@ -1,47 +1,19 @@
-# Dramabox API
+# 🎬 DramaBox API
 
-Repository ini hanya berisi contoh penggunaan API Dramabox.
-Silakan jalankan di server anda atau kreasikan sendiri berdasarkan contoh yang ada.
+API ini memungkinkan pengembang untuk mengambil data konten terbaru, trending, melakukan pencarian, melihat detail drama, hingga mendapatkan link streaming video.
 
-### Free API
+## 🚀 Base URL
 
-https://api-dramabox.vercel.app/
+Semua request ditujukan ke host berikut:
+[https://dramabox.sansekai.my.id](https://dramabox.sansekai.my.id)
 
-## Instalasi
+-----
 
-```sh
-git clone https://github.com/Sansekai/DramaBox-API
-cd DramaBox-API
-npm install
-```
+## 💼 Pembelian Source Code
 
-## Cara Menjalankan
+Anda tertarik untuk memiliki source code lengkap dari API ini?
 
-Jalankan setiap file dengan perintah:
-```sh
-node nama_file.js
-```
+Silakan klik link pembelian:
+**[Beli Source Code](https://lynk.id/sansekai/ygd0z9jowrlr)**
 
-### Daftar File dan Fungsinya
-
-1. `search.js`<br>
-Mencari drama berdasarkan kata kunci.
-Cara pakai:
-- Ganti nilai `keyword` pada variabel `data` dengan kata kunci yang diinginkan.
-2. `latest.js`<br>
-Mendapatkan daftar drama terbaru.
-3. `link-stream.js`<br>
-Mendapatkan link dari episode tertentu.
-Cara pakai:
-- Ganti nilai `bookId` pada variabel `data` dengan ID drama yang diinginkan.
-- Ganti nilai `index` pada variabel `data` dengan nomor episode yang diinginkan (dimulai dari 1).
-Jumlah episode dapat dilihat pada hasil `latest.js` pada properti `chapterCount`.
-
-## INFO
-
-```json
-{
-  "token": "requests are limited by vercel - Silakan gunakan API DramaBox yang tersedia Di https://api-dramabox.vercel.app",
-  "info": "Silakan gunakan API DramaBox yang tersedia di https://api-dramabox.vercel.app"
-}
-```
+-----
