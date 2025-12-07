@@ -3,7 +3,7 @@ import { token } from './get-token.js';
 
 try {
 const gettoken = await token();
-const url = "https://sapi.dramaboxdb.com/drama-box/search/suggest";
+const url = "https://drama-box-api-seven.vercel.app/drama-box/search/suggest";
 
 const headers = {
   "User-Agent": "okhttp/4.10.0",
